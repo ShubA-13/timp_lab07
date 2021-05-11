@@ -1,0 +1,19 @@
+Start testing: May 10 22:52 MSK
+----------------------------------------------------------
+Unable to find executable: tests
+1/1 Testing: unit_tests
+1/1 Test: unit_tests
+Command: ""
+Directory: /home/nikita/8888812/workspace/projects/lab07/_builds
+"unit_tests" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"unit_tests" end time: May 10 22:52 MSK
+"unit_tests" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: May 10 22:52 MSK

@@ -1,0 +1,39 @@
+Execute command: [
+  `which`
+  `cmake`
+]
+[/home/nikita/8888812/workspace/projects/lab07]> "which" "cmake"
+/usr/bin/cmake
+Execute command: [
+  `cmake`
+  `--version`
+]
+[/home/nikita/8888812/workspace/projects/lab07]> "cmake" "--version"
+cmake version 3.16.3
+
+CMake suite maintained and supported by Kitware (kitware.com/cmake).
+Execute command: [
+  `cmake`
+  `--build`
+  `/home/nikita/8888812/workspace/projects/lab07/_builds/default`
+  `--`
+]
+[/home/nikita/8888812/workspace/projects/lab07]> "cmake" "--build" "/home/nikita/8888812/workspace/projects/lab07/_builds/default" "--"
+-- [polly] Used toolchain: Default
+-- [polly] Used toolchain: Default
+-- Configuring done
+CMake Error at CMakeLists.txt:17 (add_library):
+  Cannot find source file:
+
+    /home/nikita/8888812/workspace/projects/lab07/sources/print.cpp
+
+  Tried extensions .c .C .c++ .cc .cpp .cxx .cu .m .M .mm .h .hh .h++ .hm
+  .hpp .hxx .in .txx
+
+
+CMake Error at CMakeLists.txt:17 (add_library):
+  No SOURCES given to target: print
+
+
+CMake Generate step failed.  Build files cannot be regenerated correctly.
+make: *** [Makefile:294: cmake_check_build_system] Ошибка 1

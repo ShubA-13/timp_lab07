@@ -1,0 +1,7 @@
+cmake_minimum_required (VERSION 3.4)
+set (CMAKE_CXX_STANDART 11)
+set (CMAKE_CXX_REQUIRED ON )
+project (formatter_ex)
+include_directories (~/8888812/workspace/projects/lab03/formatter_lib) 
+add_library (formatter_ex STATIC formatte#add_subdirectory (formatter) 
+#target_link_libraries (formatter_ex formatter ) 

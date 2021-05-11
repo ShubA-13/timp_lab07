@@ -1,0 +1,7 @@
+# CMake generated Testfile for 
+# Source directory: /home/nikita/8888812/workspace/projects/lab07/third-party/gtest/googlemock
+# Build directory: /home/nikita/8888812/workspace/projects/lab07/_builds/third-party/gtest/googlemock
+# 
+# This file includes the relevant testing commands required for 
+# testing this directory and lists subdirectories to be tested as well.
+subdirs("gtest")

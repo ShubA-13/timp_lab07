@@ -1,0 +1,59 @@
+Execute command: [
+  `which`
+  `cmake`
+]
+[/home/nikita/8888812/workspace/projects/lab07]> "which" "cmake"
+/usr/bin/cmake
+Execute command: [
+  `cmake`
+  `--version`
+]
+[/home/nikita/8888812/workspace/projects/lab07]> "cmake" "--version"
+cmake version 3.16.3
+
+CMake suite maintained and supported by Kitware (kitware.com/cmake).
+Execute command: [
+  `cmake`
+  `--build`
+  `/home/nikita/8888812/workspace/projects/lab07/_builds/default`
+  `--`
+]
+[/home/nikita/8888812/workspace/projects/lab07]> "cmake" "--build" "/home/nikita/8888812/workspace/projects/lab07/_builds/default" "--"
+[ 16%] Built target print
+[ 33%] Built target demo
+[ 50%] Built target gtest
+[ 66%] Built target gmock
+[ 83%] Built target gmock_main
+[100%] Built target gtest_main
+Execute command: [
+  `ctest`
+]
+[/home/nikita/8888812/workspace/projects/lab07/_builds/default]> "ctest"
+Test project /home/nikita/8888812/workspace/projects/lab07/_builds/default
+    Start 1: unit_tests
+Could not find executable tests
+Looked in the following places:
+tests
+tests
+Release/tests
+Release/tests
+Debug/tests
+Debug/tests
+MinSizeRel/tests
+MinSizeRel/tests
+RelWithDebInfo/tests
+RelWithDebInfo/tests
+Deployment/tests
+Deployment/tests
+Development/tests
+Development/tests
+Unable to find executable: tests
+1/1 Test #1: unit_tests .......................***Not Run   0.00 sec
+
+0% tests passed, 1 tests failed out of 1
+
+Total Test time (real) =   0.00 sec
+
+The following tests FAILED:
+    1 - unit_tests (Not Run)
+Errors while running CTest

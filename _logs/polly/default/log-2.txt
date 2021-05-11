@@ -1,0 +1,29 @@
+Execute command: [
+  `which`
+  `cmake`
+]
+[/home/nikita/8888812/workspace/projects/lab07]> "which" "cmake"
+/usr/bin/cmake
+Execute command: [
+  `cmake`
+  `--version`
+]
+[/home/nikita/8888812/workspace/projects/lab07]> "cmake" "--version"
+cmake version 3.16.3
+
+CMake suite maintained and supported by Kitware (kitware.com/cmake).
+Execute command: [
+  `cmake`
+  `--build`
+  `/home/nikita/8888812/workspace/projects/lab07/_builds/default`
+  `--`
+]
+[/home/nikita/8888812/workspace/projects/lab07]> "cmake" "--build" "/home/nikita/8888812/workspace/projects/lab07/_builds/default" "--"
+[ 10%] Building CXX object CMakeFiles/demo.dir/demo/main.cpp.o
+/home/nikita/8888812/workspace/projects/lab07/demo/main.cpp:1:10: fatal error: print.hpp: Нет такого файла или каталога
+    1 | #include <print.hpp>
+      |          ^~~~~~~~~~~
+compilation terminated.
+make[2]: *** [CMakeFiles/demo.dir/build.make:63: CMakeFiles/demo.dir/demo/main.cpp.o] Ошибка 1
+make[1]: *** [CMakeFiles/Makefile2:138: CMakeFiles/demo.dir/all] Ошибка 2
+make: *** [Makefile:141: all] Ошибка 2
